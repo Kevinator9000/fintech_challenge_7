@@ -4,7 +4,7 @@ This program builds a temporary database and populates it with the 'etf.db' data
 ---
 ## Technologies
 This program utilizes Jupyter Lab with the following libraries:
-![](screencap/imports.PNG)
+![](screen_cap/imports.PNG)
 
 ---
 ## Installation Guide
@@ -13,19 +13,19 @@ The only requirements are installing the required libraries and you must have th
 ---
 ## Usage
 First, the program will establish a connection in order to import data from the 'etf.db' database.
-![](screencap/1.PNG)
+![](screen_cap/1.PNG)
 
 Next, the daily returns for PYPL is calculated and visualized as a line plot.
-![](screencap/2.PNG)
+![](screen_cap/2.PNG)
 
 The application then provides us with a cumulative return of PYPL visualization.
-![](screencap/3.PNG)
+![](screen_cap/3.PNG)
 
 Now, the program displays the cumulative return of the entire ETF, which includes PYPL, GDOT, GS and SQ.
-![](screencap/4.PNG)
+![](screen_cap/4.PNG)
 
 Finally, we use voila to review our results in a browser window. Simply use your terminal to navigate to the project folder, type 'voila etf_analyzer.ipynb' and... VOILA
-![](screencap/voila.PNG)
+![](screen_cap/voila.PNG)
 
 ---
 ## Contributors
